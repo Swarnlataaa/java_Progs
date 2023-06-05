@@ -1,0 +1,5 @@
+- In this program, we have two user-defined classes: CarbonFootprint and CarbonFootprintCalculator. The CarbonFootprint class represents the carbon footprint of a human and contains variables for the carbon footprints related to food, transportation, energy, and the total carbon footprint. It also has getter methods to retrieve these values.
+
+- The CarbonFootprintCalculator class is responsible for asking lifestyle questions and calculating the carbon footprint based on the answers. It has methods to ask food-related, transportation-related, and energy-related questions, and calculate the corresponding carbon footprints. The calculateCarbonFootprint method combines the answers from these questions to create an instance of the CarbonFootprint class.
+
+- In the main method of the CarbonFootprintCalculatorMain class, we create an instance of the CarbonFootprintCalculator and call the calculateCarbonFootprint method to calculate the carbon footprint. We then display the results by retrieving the individual carbon footprints using the getter methods of the CarbonFootprint class.
